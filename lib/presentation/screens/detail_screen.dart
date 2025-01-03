@@ -3,7 +3,7 @@ import 'package:flutter_haber/data/Model/article_model.dart';
 
 class DetailScreen extends StatelessWidget {
   final Article article;
-  const DetailScreen({Key? key, required this.article}) : super(key: key);
+  const DetailScreen({super.key, required this.article});
 
   @override
   Widget build(BuildContext context) {

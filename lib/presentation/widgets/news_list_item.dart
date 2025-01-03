@@ -6,10 +6,10 @@ class NewsListItem extends StatelessWidget {
   final VoidCallback onTap;
 
   const NewsListItem({
-    Key? key,
+    super.key,
     required this.article,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

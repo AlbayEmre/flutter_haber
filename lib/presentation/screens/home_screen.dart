@@ -8,7 +8,7 @@ import 'package:flutter_haber/presentation/screens/detail_screen.dart';
 import 'package:flutter_haber/presentation/widgets/news_list_item.dart';
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen({Key? key}) : super(key: key);
+  HomeScreen({super.key});
 
   // Kategori seçimi için ValueNotifier
   final ValueNotifier<String> selectedCategory = ValueNotifier<String>('general');

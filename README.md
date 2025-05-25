@@ -1,16 +1,40 @@
-# flutter_haber
+# 📰 Flutter Haber Uygulaması
 
-A new Flutter project.
+**Flutter Haber**, Flutter ile geliştirilmiş, BLoC mimarisiyle yapılandırılmış ve haberleri API üzerinden dinamik olarak çeken modern bir haber uygulamasıdır. Temiz kod prensiplerine göre düzenlenmiş, sade ve fonksiyonel bir yapı sunar.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 🧠 **flutter_bloc** ile BLoC mimarisi
+- 🌐 **Dio** ile haber API'sinden veri çekme
+- ⚡ Gerçek zamanlı haber listeleme
+- 📱 Responsive tasarım
+- 🧩 Equatable ile state karşılaştırmaları
+- 📦 Clean code & modüler yapı
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Kullanılan Paketler
+
+| Paket              | Açıklama                              |
+|--------------------|----------------------------------------|
+| **dio**            | API'den veri çekme                     |
+| **flutter_bloc**   | BLoC yapısı (State Management)         |
+| **equatable**      | State karşılaştırmaları                |
+| **cupertino_icons**| iOS tarzı ikonlar                      |
+
+---
+
+## 📦 Kurulum
+
+```bash
+# 1. Projeyi klonla
+git clone https://github.com/AlbayEmre/flutter_haber.git
+cd flutter_haber
+
+# 2. Paketleri yükle
+flutter pub get
+
+# 3. Uygulamayı başlat
+flutter run
